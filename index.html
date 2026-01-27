@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTA - روان‌درمانی آنلاین</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/SignUp_LogIn_Form.css">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+
+<div class="main-container">
+    <!-- header navbar section start  -->
+    <header>
+
+        <!-- logo (right) -->
+        <a href="#" class="logo"><span>MENTA</span></a>
+    
+        <!-- navbar (center) -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">خانه</a></li>
+                <li><a href="#about">خدمات</a></li>
+                <li><a href="#doctor">درمانگران</a></li>
+                <li><a href="#review">تجربه مراجعین</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+                <li><a href="#blog">مقالات</a></li>
+            </ul>
+        </nav>
+    
+        <!-- auth (left) -->
+        <div class="auth">
+            <a href="#" class="login-register" onclick="event.preventDefault()">ورود | ثبت‌نام</a>
+        </div>
+        <div class="fas fa-bars"></div>
+    
+    </header>
+    <div id="modal" class="modal hidden"></div>
+
+    <!-- header navbar section end  -->
+
+    <!-- home section start  -->
+    <section id="home" class="home">
+        <div class="row">
+
+            <!-- home images  -->
+            <div class="images">
+                <img src="./images/mint.png" alt="MENTA">
+            </div>
+
+            <!-- home heading  -->
+            <div class="content">
+                <h1><span>آزمون‌های</span> روان‌شناختی،</h1>
+                <p>اولین قدم برای شناخت عمیق‌تر خودت و شروع مسیر درمانی</p>
+                <a href="#"><button class="button">شروع آزمون</button></a>
+            </div>
+        </div>
+        
+    </section>
+    <!-- home section end  -->
+    <div class="wave"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#D8E9A8" fill-opacity="1" d="M0,128L48,106.7C96,85,192,43,288,32C384,21,480,43,576,80C672,117,768,171,
+        864,202.7C960,235,1056,245,1152,229.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,
+        320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </div>
+    
+
+    <!-- about section start  -->
+    <section id="about" class="about">
+
+        <h1 class="heading section-heading">خدمات روان‌درمانی</h1>
+        <h3 class="title">با خدمات ما آشنا شوید</h3>
+        <div class="about-geometry">
+
+            <svg class="flow-line" viewBox="0 0 1000 600" preserveAspectRatio="none">
+                <path d="
+                    M 0 120
+                    C 180 40, 320 220, 520 160
+                    S 820 260, 1000 200
+                " />
+            </svg>
+        
+            <span class="dot d1"></span>
+            <span class="dot d2"></span>
+            <span class="dot d3"></span>
+        
+            <div class="blob b1"></div>
+            <div class="blob b2"></div>
+        
+        </div>
+        
+        <div class="service-slider">
+    
+            <div class="service-box" id="service-slider">
+    
+                <div class="images">
+                    <img src="./images/illustration-material.png" alt="">
+                </div>
+    
+                <div class="content">
+                    <h3>مشاوره فردی</h3>
+                    <p>حل مشکلات اضطراب، افسردگی و خودشناسی</p>
+                    <a href="#"><button class="button">اطلاعات بیشتر</button></a>
+                </div>
+    
+                <div class="controls">
+                    <button class="prev">‹</button>
+                    <button class="next">›</button>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <!-- about section end  -->
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#D8E9A8" fill-opacity="1" d="M0,320L40,309.3C80,299,160,277,240,256C320,235,400,213,480,192C560,171,640,149,720,154.7C800,160,880,192,960,218.7C1040,245,1120,267,1200,272C1280,277,1360,267,1400,261.3L1440,256L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+          </svg>
+    </div>
+
+    <!-- card section start  -->
+    <section id="doctor" class="card">
+
+        <div class="container">
+
+            <h1 class="heading section-heading">درمانگران</h1>
+            <h3 class="title">تیم حرفه‌ای ما</h3>
+
+           <div class="box-container">
+            <div class="swiper team-slider">
+             <div class="swiper-wrapper">
+                
+               <div class="swiper-slide">
+                <div class="box card-box">
+                    <img src="./images/doctor-1.jpg" alt="درمانگر">
+                    <div class="content">
+                        <a href="#"><h2>جان دو</h2></a>
+                        <p>حرفه‌ای</p>
+                        <div class="icons">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               
+               <div class="swiper-slide">
+                <div class="box card-box">
+                    <img src="./images/doctor-2.jpg" alt="درمانگر">
+                    <div class="content">
+                        <a href="#"><h2>جان دو</h2></a>
+                        <p>حرفه‌ای</p>
+                        <div class="icons">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+               <div class="swiper-slide">
+                <div class="box card-box">
+                    <img src="./images/doctor-3.jpg" alt="درمانگر">
+                    <div class="content">
+                        <a href="#"><h2>جان دو</h2></a>
+                        <p>حرفه‌ای</p>
+                        <div class="icons">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+               </div>
+
+              </div>
+             </div>
+
+             <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- card section end  -->
+
+    <!-- review section start  -->
+    <section id="review" class="review">
+
+        <h1 class="heading section-heading">تجربه مراجعین</h1>
+        <h3 class="title">مراجعین ما چه می‌گویند</h3>
+
+        <div class="box-container">
+         <div class="swiper team-slider">
+          <div class="swiper-wrapper">
+               
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <i class="fas fa-quote-left"></i>
+                <p>تجربه‌ای بسیار مثبت، مسیر درمانی منظم و کارآمد بود.</p>
+                <div class="images">
+                    <img src="./images/img-1.jpg" alt="مراجع">
+                    <div class="info">
+                        <h3>علی رضایی</h3>
+                        <span>تاریخ: 11 2024</span>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <i class="fas fa-quote-left"></i>
+                <p>با کمک روان‌شناس‌های حرفه‌ای، توانستم رابطه‌ام را بهبود دهم.</p>
+                <div class="images">
+                    <img src="./images/img-2.jpg" alt="مراجع">
+                    <div class="info">
+                        <h3>سارا احمدی</h3>
+                        <span>تاریخ: 11 2024</span>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <i class="fas fa-quote-left"></i>
+                <p>آزمون‌ها و مشاوره‌ها بسیار کاربردی و حرفه‌ای بودند.</p>
+                <div class="images">
+                    <img src="./images/img-3.jpg" alt="مراجع">
+                    <div class="info">
+                        <h3>محمد کریمی</h3>
+                        <span>تاریخ: 11 2024</span>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+         </div>
+        </div>
+    </section>
+    <!-- review section end  -->
+
+    <!-- contact section start  -->
+    <section id="contact" class="contact">
+
+        <h1 class="heading section-heading">تماس با ما</h1>
+        <h3 class="title">هر زمان که نیاز داشتید می‌توانید با ما تماس بگیرید</h3>
+
+        <div class="row">
+
+            <div class="images">
+                <img src="./images/Screenshot 2025-12-21 150951.png" alt="تماس با MENTA">
+            </div>
+
+            <div class="form-container">    
+                <input type="text" placeholder="نام و نام خانوادگی" name="" id="">
+                <input type="email" placeholder="ایمیل" name="" id="">
+                <input type="number" placeholder="شماره تلفن" name="" id="">
+                <textarea name="" cols="30" rows="10" id="" placeholder="پیام شما"></textarea>
+                <input type="submit" value="ارسال">
+            </div>
+        </div>
+    </section>
+    <!-- contact section end  -->
+
+    <!-- blog section start  -->
+    <section id="blog" class="blog">
+
+        <h1 class="heading section-heading">مقالات</h1>
+        <h3 class="title">مطالب آموزشی و روان‌شناختی</h3>
+
+        <div class="box-container">
+         <div class="swiper team-slider">
+          <div class="swiper-wrapper">
+                
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <img src="./images/blog 1.png" alt="دیابت">
+                <div class="content">
+                    <a href="#"><h2>دیابت و سلامت روان</h2></a>
+                    <p>تاثیر شرایط جسمی بر روح و روان انسان و راهکارهای مدیریت آن.</p>
+                    <a href="#"><button class="button">مطالعه بیشتر</button></a>
+                </div>
+            </div>
+           </div>
+
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <img src="./images/blog 2.png" alt="واکسن">
+                <div class="content">
+                    <a href="#"><h2>واکسن کووید-19 و سلامت روان</h2></a>
+                    <p>ارتباط سلامت روان با پیشگیری‌های پزشکی و استرس‌های اجتماعی.</p>
+                    <a href="#"><button class="button">مطالعه بیشتر</button></a>
+                </div>
+            </div>
+           </div>
+
+           <div class="swiper-slide">
+            <div class="box card-box">
+                <img src="./images/blog 3.png" alt="پیشگیری">
+                <div class="content">
+                    <a href="#"><h2>پیشگیری از بحران‌های روانی</h2></a>
+                    <p>راهکارهایی برای کاهش اضطراب و جلوگیری از مشکلات روانی در زندگی روزمره.</p>
+                    <a href="#"><button class="button">مطالعه بیشتر</button></a>
+                </div>
+            </div>
+           </div>
+
+          </div>
+         <div class="swiper-pagination"></div>
+         </div>
+        </div>
+    </section>
+    <!-- blog section end  -->
+
+    <!-- footer section start  -->
+    <section class="footer">
+
+        <div class="box">
+            <h2 class="logo"><span>MENTA</span></h2>
+            <p>مرکز روان‌درمانی آنلاین با خدمات حرفه‌ای و استاندارد برای بهبود زندگی شما.</p>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>شبکه‌ها</span></h2>
+            <a href="#">فیسبوک</a>
+            <a href="#">توییتر</a>
+            <a href="#">اینستاگرام</a>
+            <a href="#">پینترست</a>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>لینک‌ها</span></h2>
+            <a href="#home">خانه</a>
+            <a href="#about">خدمات</a>
+            <a href="#doctor">درمانگران</a>
+            <a href="#review">تجربه مراجعین</a>
+            <a href="#contact">تماس با ما</a>
+            <a href="#blog">مقالات</a>
+        </div>
+
+        <h1 class="credit">تمام حقوق این سایت متعلق به <span>MENTA</span> است.</h1>
+    </section>
+    <!-- footer section end  -->
+</div>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./js/main.js"></script>
+    <script src="./js/SignUp_LogIn_Form.js" defer></script>
+
+</body>
+
+</html>

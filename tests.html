@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTA | آزمون‌های روان‌شناختی</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tests.css">
+    <link rel="stylesheet" href="./css/SignUp_LogIn_Form.css">
+
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- ================= HEADER (Same as Home) ================= -->
+    <header>
+        <a href="index.html" class="logo"><span>MENTA</span></a>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">خانه</a></li>
+                <li><a href="index.html#about">خدمات</a></li>
+                <li><a href="index.html#doctor">درمانگران</a></li>
+                <li><a href="index.html#review">تجربه مراجعین</a></li>
+                <li><a href="index.html#contact">تماس با ما</a></li>
+                <li><a href="index.html#blog">مقالات</a></li>
+            </ul>
+        </nav>
+
+        <!-- auth (left) -->
+        <div class="auth">
+            <a href="#" class="login-register" onclick="event.preventDefault()">ورود | ثبت‌نام</a>
+        </div>
+        <div class="fas fa-bars"></div>
+        
+    </header>
+    <div id="modal" class="modal hidden"></div>
+
+
+    <!-- ================= HERO / AI FOCUS ================= -->
+    <section class="home">
+        <div class="row">
+
+            <div class="images">
+                <img src="./images/mint.png" alt="AI Analysis">
+            </div>
+
+            <div class="content">
+                <h1>
+                    <span>هوش مصنوعی</span><br>
+                    قبل از اولین جلسه شما را می‌شناسد
+                </h1>
+                <p>
+                    با تحلیل پاسخ‌ها و نوشته‌های شما، یک پروفایل روان‌شناختی دقیق
+                    برای درمانگر ساخته می‌شود تا جلسه اول مؤثرتر آغاز شود.
+                </p>
+                <a href="#methods">
+                    <button class="button">انتخاب روش شناخت</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#D8E9A8" d="M0,128L48,106.7C96,85,192,43,288,32C384,21,480,43,576,80C672,117,768,171,864,202.7C960,235,1056,245,1152,229.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L0,320Z"></path>
+        </svg>
+    </div>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="about">
+        <h1 class="heading section-heading">این سیستم چگونه کار می‌کند؟</h1>
+        <h3 class="title">فرآیندی ساده، انسانی و محرمانه</h3>
+
+        <div class="box-container">
+            <div>
+                <h2>شما صحبت می‌کنید</h2>
+                <p>به سؤالات پاسخ می‌دهید یا آزادانه درباره خودتان می‌نویسید.</p>
+            </div>
+
+            <div>
+                <h2>هوش مصنوعی تحلیل می‌کند</h2>
+                <p>الگوهای احساسی، شناختی و رفتاری استخراج می‌شوند.</p>
+            </div>
+
+            <div>
+                <h2>درمانگر آماده‌تر است</h2>
+                <p>جلسه اول با شناخت اولیه و ارتباط مؤثرتر آغاز می‌شود.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= METHOD SELECTION ================= -->
+    <section id="methods" class="card">
+        <h1 class="heading section-heading">انتخاب روش شناخت</h1>
+        <h3 class="title">شما انتخاب می‌کنید، ما تحلیل می‌کنیم</h3>
+
+        <div class="box-container">
+
+            <!-- AI Descriptive Method -->
+            <div class="card-box">
+                <h2>
+                     تحلیل تشریحی با هوش مصنوعی
+                </h2>
+
+                <p>
+                    در این روش، شما تنها با یک آزمون و با نوشتن آزاد درباره
+                    احساسات، تجربیات و دغدغه‌هایتان، به هوش مصنوعی کمک می‌کنید
+                    تصویر دقیق‌تری از شما بسازد.
+                </p>
+
+                <ul>
+                    <li> یک آزمون واحد</li>
+                    <li> پاسخ آزاد و بدون محدودیت</li>
+                    <li> تحلیل عمیق‌تر و شخصی‌سازی‌شده</li>
+                </ul>
+
+                <a href="descriptive-test.html">
+                    <button class="button">آزمون تشریحی</button>
+                </a>
+            </div>
+
+            <!-- Test-Based Method -->
+            <div class="card-box">
+                <h2> آزمون‌های تستی استاندارد</h2>
+
+                <p>
+                    در این روش، پروفایل روان‌شناختی شما با استفاده از مجموعه‌ای
+                    از آزمون‌های چندگزینه‌ای استاندارد تکمیل می‌شود.
+                </p>
+
+                <ul>
+                    <li> شامل چند آزمون مختلف</li>
+                    <li> هر آزمون کوتاه و استاندارد</li>
+                    <li> مناسب برای تکمیل پروفایل</li>
+                </ul>
+
+                <p> توجه: در این روش ممکن است چند آزمون را انجام دهید.</p>
+
+                <a href="test-based-path.html">
+                    <button class="button">آزمون‌های تستی</button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER (Same as Home) ================= -->
+    <section class="footer">
+
+        <div class="box">
+            <h2 class="logo"><span>MENTA</span></h2>
+            <p>
+                مرکز روان‌درمانی آنلاین با استفاده از هوش مصنوعی
+                برای شروع بهتر مسیر درمان.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>شبکه‌ها</span></h2>
+            <a href="#">فیسبوک</a>
+            <a href="#">توییتر</a>
+            <a href="#">اینستاگرام</a>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>لینک‌ها</span></h2>
+            <a href="index.html">خانه</a>
+            <a href="#">آزمون‌ها</a>
+            <a href="index.html#contact">تماس با ما</a>
+        </div>
+
+        <h1 class="credit">
+            تمام حقوق این سایت متعلق به <span>MENTA</span> است.
+        </h1>
+    </section>
+
+</div>
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/main.js"></script>
+<script src="./js/SignUp_LogIn_Form.js" defer></script>
+
+</body>
+</html>
