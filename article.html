@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTA - روان‌درمانی آنلاین</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/SignUp_LogIn_Form.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+
+<div class="main-container">
+    <!-- header navbar section start  -->
+    <header>
+
+        <!-- logo (right) -->
+        <a href="#" class="logo"><span>MENTA</span></a>
+    
+        <!-- navbar (center) -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">خانه</a></li>
+                <li><a href="#about">خدمات</a></li>
+                <li><a href="#doctor">درمانگران</a></li>
+                <li><a href="#review">تجربه مراجعین</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+                <li><a href="#blog">مقالات</a></li>
+            </ul>
+        </nav>
+    
+        <!-- auth (left) -->
+        <div class="auth">
+            <a href="#" class="login-register" onclick="event.preventDefault()">ورود | ثبت‌نام</a>
+        </div>
+        <div class="fas fa-bars"></div>
+    
+    </header>
+    <div id="modal" class="modal hidden"></div>
+
+    <!-- header navbar section end  -->
+
+    <section class="blog-single">
+        <div class="container blog-layout">
+
+            <!-- Sidebar -->
+            <aside class="blog-sidebar">
+
+            <div class="sidebar-box">
+                <h3>فهرست مقاله</h3>
+                <ul class="article-toc">
+                <li><a href="#section-1">۱. تنظیم انتظارات</a></li>
+                <li><a href="#section-2">۲. ارتباط مداوم</a></li>
+                <li><a href="#section-3">۳. بازخورد مستمر</a></li>
+                <li><a href="#section-4">۴. حمایت عاطفی</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>مقالات پیشنهادی</h3>
+
+                <div class="related-post">
+                    <img src="./images/blog 3.png" alt="">
+                    <a href="#">چگونه تیم درمانی مؤثر بسازیم؟</a>
+                    <span>۵ دقیقه مطالعه</span>
+                </div>
+
+                <div class="related-post">
+                    <img src="./images/blog 1.png" alt="">
+                    <a href="#">نقش هوش مصنوعی در سلامت روان</a>
+                    <span>۷ دقیقه مطالعه</span>
+                </div>
+
+                <div class="related-post">
+                    <img src="./images/blog 2.png" alt="">
+                    <a href="#">فرسودگی شغلی درمانگران</a>
+                    <span>۶ دقیقه مطالعه</span>
+                </div>
+            </div>
+
+            </aside>
+
+            <!-- Article Content -->
+            <article class="blog-content">
+
+                <!-- Article Cover Image -->
+                <div class="article-cover">
+                    <img src="./images/blog 1.png" alt="تصویر مقاله">
+                </div>
+
+                <section class="article-header">
+                    <h1>۸ روش مدیریت تیم در دوران فاصله‌گذاری اجتماعی</h1>
+
+                    <div class="article-meta">
+                    <span>⏱ ۸ دقیقه مطالعه</span>
+                    <span>📅 ۱۲ بهمن ۱۴۰۴</span>
+                    </div>
+                </section>
+
+                <div class="article-body">
+
+                    <h2 id="section-1">۱. انتظارات خود را دوباره تنظیم کنید</h2>
+                    <p>
+                    مدیریت تیم در شرایط دورکاری نیازمند بازتعریف انتظارات، خروجی‌ها و
+                    شیوه‌های ارزیابی عملکرد است...
+                    </p>
+
+                    <blockquote>
+                    تمرکز بر نتیجه، مهم‌تر از تمرکز بر زمان حضور است.
+                    </blockquote>
+
+                    <h2 id="section-2">۲. همیشه در تماس باشید</h2>
+                    <p>
+                    ارتباط مستمر، احساس تعلق تیم را حفظ می‌کند و مانع فرسودگی می‌شود...
+                    </p>
+
+                </div>
+
+            <!-- Author Box -->
+            <section class="article-footer">
+
+                <div class="author-box">
+                <img src="./images/img-1.jpg" alt="نویسنده">
+                <div>
+                    <strong>نویسنده:</strong> Harvard Business Review  
+                    <br>
+                    <strong>مترجم:</strong> تیم محتوای MENTA
+                </div>
+                </div>
+
+                <div class="article-reference">
+                <strong>منبع:</strong>
+                <a href="#" target="_blank">
+                    theschool.blue
+                </a>
+                </div>
+
+            </section>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- footer section start  -->
+    <section class="footer">
+
+        <div class="box">
+            <h2 class="logo"><span>MENTA</span></h2>
+            <p>مرکز روان‌درمانی آنلاین با خدمات حرفه‌ای و استاندارد برای بهبود زندگی شما.</p>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>شبکه‌ها</span></h2>
+            <a href="#">فیسبوک</a>
+            <a href="#">توییتر</a>
+            <a href="#">اینستاگرام</a>
+            <a href="#">پینترست</a>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>لینک‌ها</span></h2>
+            <a href="#home">خانه</a>
+            <a href="#about">خدمات</a>
+            <a href="#doctor">درمانگران</a>
+            <a href="#review">تجربه مراجعین</a>
+            <a href="#contact">تماس با ما</a>
+            <a href="#blog">مقالات</a>
+        </div>
+
+        <h1 class="credit">تمام حقوق این سایت متعلق به <span>MENTA</span> است.</h1>
+    </section>
+    <!-- footer section end  -->
+</div>
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./js/main.js"></script>
+    <script src="./js/team-section.js"></script>
+    <script src="./js/SignUp_LogIn_Form.js" defer></script>
+
+</body>
+
+</html>

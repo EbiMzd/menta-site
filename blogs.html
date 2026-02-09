@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTA | بلاگ</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blogs.css">
+</head>
+
+<body>
+
+<main class="blog-page">
+    <!-- header navbar section start  -->
+    <header>
+
+        <!-- logo (right) -->
+        <a href="#" class="logo"><span>MENTA</span></a>
+    
+        <!-- navbar (center) -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">خانه</a></li>
+                <li><a href="#about">خدمات</a></li>
+                <li><a href="#doctor">درمانگران</a></li>
+                <li><a href="#review">تجربه مراجعین</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+                <li><a href="#blog">مقالات</a></li>
+            </ul>
+        </nav>
+    
+        <!-- auth (left) -->
+        <div class="auth">
+            <a href="#" class="login-register" onclick="event.preventDefault()">ورود | ثبت‌نام</a>
+        </div>
+        <div class="fas fa-bars"></div>
+    
+    </header>
+    <div id="modal" class="modal hidden"></div>
+
+    <!-- header navbar section end  -->
+
+
+    <!-- ================= HERO ================= -->
+    <section class="blog-hero">
+        <h1 class="section-heading">بلاگ MENTA</h1>
+        <h3 class="title">روان‌شناسی، ذهن، و مسیر شناخت خود</h3>
+
+        <p class="blog-intro">
+            اینجا درباره‌ی سلامت روان، خودشناسی،
+            و نقش هوش مصنوعی در درمان می‌نویسیم.
+        </p>
+    </section>
+
+    <!-- ================= FILTER ================= -->
+    <div class="blog-filter">
+        <span class="filter-item active" data-filter="all">همه</span>
+        <span class="filter-item" data-filter="mind">ذهن</span>
+        <span class="filter-item" data-filter="therapy">درمان</span>
+        <span class="filter-item" data-filter="ai">هوش مصنوعی</span>
+    </div>
+
+    <!-- ================= POSTS ================= -->
+    <section class="blog-posts">
+
+        <!-- Card 1 -->
+        <article class="blog-card mind">
+            <img src="./images/blog 1.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">ذهن</span>
+                <h2>چرا نوشتن احساسات به شناخت عمیق‌تر کمک می‌کند؟</h2>
+                <p>
+                    نوشتن آزاد یکی از ابزارهای مؤثر
+                    برای درک بهتر الگوهای ذهنی است.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-1.jpg" alt="">
+                        <span>دکتر نرگس احمدی</span>
+                    </div>
+                    <span class="blog-date">۱۴ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="blog-card ai">
+            <img src="./images/blog 2.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">هوش مصنوعی</span>
+                <h2>هوش مصنوعی چگونه درمانگر را آماده‌تر می‌کند؟</h2>
+                <p>
+                    AI می‌تواند جلسه اول درمان
+                    را هدفمندتر و انسانی‌تر کند.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-2.jpg" alt="">
+                        <span>دکتر علی رضایی</span>
+                    </div>
+                    <span class="blog-date">۱۰ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="blog-card therapy">
+            <img src="./images/blog 3.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">درمان</span>
+                <h2>جلسه اول درمان چرا این‌قدر مهم است؟</h2>
+                <p>
+                    شناخت اولیه، پایه‌ی
+                    اعتماد و ارتباط درمانی است.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-3.jpg" alt="">
+                        <span>دکتر سارا محمدی</span>
+                    </div>
+                    <span class="blog-date">۸ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- تکرار برای رسیدن به ۹ کارت -->
+        <article class="blog-card mind">
+            <img src="./images/blog 2.png">
+            <div class="blog-content">
+                <span class="blog-category">ذهن</span>
+                <h2>چرا بعضی احساسات را سرکوب می‌کنیم؟</h2>
+                <p>شناخت الگوهای دفاعی ذهن اولین قدم درمان است.</p>
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-1.jpg">
+                        <span>دکتر نرگس احمدی</span>
+                    </div>
+                    <span class="blog-date">۵ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="blog-card ai">
+            <img src="./images/blog 3.png">
+            <div class="blog-content">
+                <span class="blog-category">هوش مصنوعی</span>
+                <h2>تحلیل متن چگونه به شناخت شخصیت کمک می‌کند؟</h2>
+                <p>زبان، آینه‌ای از ذهن انسان است.</p>
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-2.jpg">
+                        <span>دکتر علی رضایی</span>
+                    </div>
+                    <span class="blog-date">۳ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="blog-card therapy">
+            <img src="./images/blog 1.png">
+            <div class="blog-content">
+                <span class="blog-category">درمان</span>
+                <h2>درمان مؤثر از کجا شروع می‌شود؟</h2>
+                <p>شناخت، قبل از هر تکنیکی قرار می‌گیرد.</p>
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-3.jpg">
+                        <span>دکتر سارا محمدی</span>
+                    </div>
+                    <span class="blog-date">۱ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+<!-- Card 1 -->
+        <article class="blog-card mind">
+            <img src="./images/blog 1.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">ذهن</span>
+                <h2>چرا نوشتن احساسات به شناخت عمیق‌تر کمک می‌کند؟</h2>
+                <p>
+                    نوشتن آزاد یکی از ابزارهای مؤثر
+                    برای درک بهتر الگوهای ذهنی است.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-1.jpg" alt="">
+                        <span>دکتر نرگس احمدی</span>
+                    </div>
+                    <span class="blog-date">۱۴ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="blog-card ai">
+            <img src="./images/blog 2.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">هوش مصنوعی</span>
+                <h2>هوش مصنوعی چگونه درمانگر را آماده‌تر می‌کند؟</h2>
+                <p>
+                    AI می‌تواند جلسه اول درمان
+                    را هدفمندتر و انسانی‌تر کند.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-2.jpg" alt="">
+                        <span>دکتر علی رضایی</span>
+                    </div>
+                    <span class="blog-date">۱۰ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="blog-card therapy">
+            <img src="./images/blog 3.png" alt="blog">
+            <div class="blog-content">
+                <span class="blog-category">درمان</span>
+                <h2>جلسه اول درمان چرا این‌قدر مهم است؟</h2>
+                <p>
+                    شناخت اولیه، پایه‌ی
+                    اعتماد و ارتباط درمانی است.
+                </p>
+
+                <div class="blog-meta">
+                    <div class="author">
+                        <img src="./images/img-3.jpg" alt="">
+                        <span>دکتر سارا محمدی</span>
+                    </div>
+                    <span class="blog-date">۸ اسفند ۱۴۰۳</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- ادامه پست‌ها -->
+    </section>
+
+</main>
+
+    <!-- footer section start  -->
+    <section class="footer">
+
+        <div class="box">
+            <h2 class="logo"><span>MENTA</span></h2>
+            <p>مرکز روان‌درمانی آنلاین با خدمات حرفه‌ای و استاندارد برای بهبود زندگی شما.</p>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>شبکه‌ها</span></h2>
+            <a href="#">فیسبوک</a>
+            <a href="#">توییتر</a>
+            <a href="#">اینستاگرام</a>
+            <a href="#">پینترست</a>
+        </div>
+
+        <div class="box">
+            <h2 class="logo"><span>لینک‌ها</span></h2>
+            <a href="#home">خانه</a>
+            <a href="#about">خدمات</a>
+            <a href="#doctor">درمانگران</a>
+            <a href="#review">تجربه مراجعین</a>
+            <a href="#contact">تماس با ما</a>
+            <a href="#blog">مقالات</a>
+        </div>
+
+        <h1 class="credit">تمام حقوق این سایت متعلق به <span>MENTA</span> است.</h1>
+    </section>
+    <!-- footer section end  -->
+<script src="./js/blog-filter.js"></script>
+</body>
+</html>
