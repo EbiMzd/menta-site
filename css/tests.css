@@ -108,6 +108,19 @@
    METHOD CARDS – INNER ELEMENTS
    (card-box container untouched)
 ================================ */
+.tests-card{
+    position: relative;
+    padding-bottom: 3rem;
+    overflow: hidden;
+}
+
+.tests-card .box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: stretch;
+}
 
 /* Title */
 .card-box h2 {
